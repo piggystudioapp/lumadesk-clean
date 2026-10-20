@@ -1,0 +1,25 @@
+# Build output
+/target/
+/dist/
+*.pdb
+*.exe
+*.zip
+
+# Images belong in assets/ or docs/screenshots/ only
+*.png
+!/assets/*.png
+!/docs/screenshots/*.png
+
+# Local data, logs and captures
+layout.json
+layout.json.bak
+icon-session-*.json
+*.log
+*.tmp
+
+# Editors and OS
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
